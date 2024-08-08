@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header {
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.py {
+    padding: 2rem 0;
+}
+
+.img-container {
+    height: 3rem;
+    width: 3rem;
+}
+
+.logo-text {
+    font-family: "Inter", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.05rem;
+    margin-left: 180px;
+}
+
+.list-items {
+    gap: 24px;
+}
+
+.nav-items ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    padding: 1.5rem 0;
+}
+
+.nav-items li {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+
+@media screen and (min-width: 481px) {
+    .menu-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo-text {
+        font-size: 1.75rem;
+        line-height: 1.3;
+        margin-left: 90px;
+    }
+
+    .img-container {
+        height: 2.388rem;
+        width: 2.388rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo-text {
+        font-size: 1.25rem;
+        line-height: 1.4;
+        
+    }
+
+    .img-container {
+        height: 1.188rem;
+        width: 1.188rem;
+    }
+
+    .icons {
+        font-size: 1.25rem;
+    }
+
+    .list-items {
+        gap: 10px;
+        margin-left: 60px;
+    }
+
+    .menu-items {
+        gap: 15px;
+    }
+
+
+}
